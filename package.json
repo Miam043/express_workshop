@@ -4,17 +4,27 @@
   "description": "An API REST using express js",
   "main": "index.js",
   "scripts": {
+    "start":"nodemon index",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Miam043/express_workshop.git"
+  },
   "keywords": [
-    "api.",
-    "rest.",
-    "express.",
-    "nodejs"
+    "node",
+    "express",
+    "jwt",
+    "mysql"
   ],
   "author": "Milton Alvarez",
   "license": "ISC",
+  "bugs":{
+    "url":"https://github.com/Miam043/express_workshop/issues"
+  },
+  "homepage": "https://github.com/Miam043/express_workshop#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
   }
 }
