@@ -4,7 +4,7 @@
   "description": "An API REST using express js",
   "main": "index.js",
   "scripts": {
-    "start":"nodemon index",
+    "start": "nodemon index",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,11 +19,12 @@
   ],
   "author": "Milton Alvarez",
   "license": "ISC",
-  "bugs":{
-    "url":"https://github.com/Miam043/express_workshop/issues"
+  "bugs": {
+    "url": "https://github.com/Miam043/express_workshop/issues"
   },
   "homepage": "https://github.com/Miam043/express_workshop#readme",
   "dependencies": {
+    "body-parser": "^1.19.0",
     "express": "^4.17.1",
     "nodemon": "^2.0.7"
   }
