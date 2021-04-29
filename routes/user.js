@@ -36,7 +36,7 @@ user.post("/login",async(req,res,next) => {
     return res.status(200).json({code:200, mesagge: token })
   }
   else{
-    return res.status(401).json({code:201, mesagge:"Usuario y/o contra incorrectos"})
+    return res.status(200).json({code:200, mesagge:"Usuario y/o contra incorrectos"})
   }
 }
 });
