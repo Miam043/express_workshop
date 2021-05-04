@@ -36,9 +36,12 @@ user.post("/login",async(req,res,next) => {
     return res.status(200).json({code:200, mesagge: token })
   }
   else{
-    return res.status(200).json({code:200, mesagge:"Usuario y/o contra incorrectos"})
+    return res.status(200).json({code:401, mesagge:"Usuario y/o contra incorrectos"})
   }
+  
 }
+return res.status(500).json({code:500, mesagge:"Campos incompletos"})
+  
 });
 
 
